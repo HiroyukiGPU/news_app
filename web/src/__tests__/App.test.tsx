@@ -1,5 +1,6 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { render, screen, waitFor } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import App from '../App'
 
 const MOCK_DATA = {
@@ -35,6 +36,10 @@ beforeEach(() => {
   )
 })
 
+afterEach(() => {
+  vi.unstubAllGlobals()
+})
+
 describe('App', () => {
   it('renders article title after loading', async () => {
     render(<App />)
@@ -51,6 +56,25 @@ describe('App', () => {
     render(<App />)
     await waitFor(() => {
       expect(screen.getByText(/読み込めませんでした/)).toBeInTheDocument()
+    })
+  })
+
+  it('switching to All tab still shows article', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+    await waitFor(() => {
+      expect(screen.getByText('Claude Code Tips')).toBeInTheDocument()
+    })
+    await user.click(screen.getByRole('tab', { name: 'All' }))
+    expect(screen.getByText('Claude Code Tips')).toBeInTheDocument()
+  })
+
+  it('Later tab shows empty state when nothing saved', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+    await user.click(screen.getByRole('tab', { name: 'Later' }))
+    await waitFor(() => {
+      expect(screen.getByText(/気になる記事を保存する/)).toBeInTheDocument()
     })
   })
 })

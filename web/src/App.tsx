@@ -16,15 +16,15 @@ function addDays(dateStr: string, days: number): string {
 }
 
 export default function App() {
-  const today = getTodayJST()
-  const [date, setDate] = useState(today)
+  const today = useMemo(() => getTodayJST(), [])
+  const [date, setDate] = useState(() => getTodayJST())
   const [activeTab, setActiveTab] = useState<TabId>('top')
   const [activeSource, setActiveSource] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState('')
   const [retryKey, setRetryKey] = useState(0)
 
   const newsState = useDailyNews(date + '?' + retryKey)
-  const { laterItems, save, remove, isSaved } = useLaterItems()
+  const { laterItems, save, remove } = useLaterItems()
 
   const savedIds = useMemo(() => new Set(laterItems.map((i) => i.id)), [laterItems])
 
@@ -47,19 +47,23 @@ export default function App() {
     [filteredArticles],
   )
 
-  const laterAsArticles: Article[] = laterItems.map((item: LaterItem) => ({
-    id: item.id,
-    title: item.title,
-    url: item.url,
-    source: item.source,
-    publishedAt: null,
-    fetchedAt: item.savedAt,
-    rawScore: null,
-    normalizedScore: 0,
-    interestBoost: 0,
-    finalScore: 0,
-    matchedKeywords: [],
-  }))
+  const laterAsArticles = useMemo<Article[]>(
+    () =>
+      laterItems.map((item: LaterItem) => ({
+        id: item.id,
+        title: item.title,
+        url: item.url,
+        source: item.source,
+        publishedAt: null,
+        fetchedAt: item.savedAt,
+        rawScore: null,
+        normalizedScore: 0,
+        interestBoost: 0,
+        finalScore: 0,
+        matchedKeywords: [],
+      })),
+    [laterItems],
+  )
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 max-w-2xl mx-auto">
