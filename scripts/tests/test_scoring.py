@@ -80,3 +80,27 @@ def test_dedup_by_url():
     articles[1]["url"] = articles[0]["url"]
     result = dedup_by_url(articles)
     assert len(result) == 1
+
+
+def test_normalize_scores_per_source_isolation():
+    """Each source normalizes independently — HN scores don't crush Zenn scores."""
+    articles = [
+        make_raw("a", "Zenn", 10),
+        make_raw("b", "Zenn", 100),
+        make_raw("c", "Hacker News", 1),
+        make_raw("d", "Hacker News", 1000),
+    ]
+    result = normalize_scores(articles)
+    by_id = {a["id"]: a for a in result}
+    assert by_id["a"]["normalizedScore"] == 0.0
+    assert by_id["b"]["normalizedScore"] == 100.0
+    assert by_id["c"]["normalizedScore"] == 0.0
+    assert by_id["d"]["normalizedScore"] == 100.0
+
+
+def test_apply_interest_boost_no_false_positive():
+    """'AI' should not match substrings in unrelated words."""
+    articles = [make_raw("a", "Zenn", 50, title="daily email failure available detail")]
+    result = apply_interest_boost(articles, KEYWORDS)
+    assert result[0]["interestBoost"] == 0.0
+    assert result[0]["matchedKeywords"] == []

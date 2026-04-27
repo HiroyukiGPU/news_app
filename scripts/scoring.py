@@ -1,3 +1,5 @@
+import re
+
 INTEREST_KEYWORDS = [
     "AI", "LLM", "Claude Code", "ChatGPT", "React", "TypeScript",
     "Flutter", "Python", "GitHub Actions", "Vercel", "Firebase",
@@ -42,7 +44,7 @@ def apply_interest_boost(articles: list[dict], keywords: list[str] | None = None
     result = []
     for a in articles:
         text = (a.get("title") or "") + " " + (a.get("summary") or "")
-        matched = [kw for kw in keywords if kw.lower() in text.lower()]
+        matched = [kw for kw in keywords if re.search(r'(?<![a-z])' + re.escape(kw) + r'(?![a-z])', text, re.IGNORECASE)]
         boost = min(len(matched) * BOOST_PER_KEYWORD, MAX_BOOST)
         result.append({**a, "interestBoost": boost, "matchedKeywords": matched})
     return result
