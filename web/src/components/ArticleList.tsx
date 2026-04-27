@@ -17,7 +17,7 @@ export function ArticleList({ articles, savedIds, onSave, onRemove, emptyMessage
     return <EmptyState message={emptyMessage} />
   }
 
-  if (showFeatured && articles.length >= 2) {
+  if (showFeatured) {
     const [first, ...rest] = articles
     return (
       <div className="px-4 py-3 flex flex-col gap-3">
@@ -27,17 +27,19 @@ export function ArticleList({ articles, savedIds, onSave, onRemove, emptyMessage
           onSave={onSave}
           onRemove={onRemove}
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {rest.map((article) => (
-            <ArticleCard
-              key={article.id}
-              article={article}
-              isSaved={savedIds.has(article.id)}
-              onSave={onSave}
-              onRemove={onRemove}
-            />
-          ))}
-        </div>
+        {rest.length > 0 && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {rest.map((article) => (
+              <ArticleCard
+                key={article.id}
+                article={article}
+                isSaved={savedIds.has(article.id)}
+                onSave={onSave}
+                onRemove={onRemove}
+              />
+            ))}
+          </div>
+        )}
       </div>
     )
   }
