@@ -1,4 +1,4 @@
-import { formatDateJST } from '../lib/date'
+import { formatDateJST, formatPublishedAt } from '../lib/date'
 
 type Props = {
   date: string
@@ -9,14 +9,7 @@ type Props = {
 }
 
 export function Header({ date, generatedAt, onPrevDay, onNextDay, isNextDisabled }: Props) {
-  const time = generatedAt
-    ? new Date(generatedAt).toLocaleTimeString('ja-JP', {
-        timeZone: 'Asia/Tokyo',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false,
-      })
-    : null
+  const time = formatPublishedAt(generatedAt) || null
 
   return (
     <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 px-4 py-3">

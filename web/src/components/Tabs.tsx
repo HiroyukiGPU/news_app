@@ -15,10 +15,16 @@ type Props = {
 
 export function Tabs({ activeTab, onChange, laterCount }: Props) {
   return (
-    <nav className="flex border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
+    <nav
+      role="tablist"
+      aria-label="コンテンツタブ"
+      className="flex border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900"
+    >
       {TABS.map(({ id, label }) => (
         <button
           key={id}
+          role="tab"
+          aria-selected={activeTab === id}
           onClick={() => onChange(id)}
           className={`flex-1 py-3 text-sm font-medium transition-colors ${
             activeTab === id
@@ -28,7 +34,10 @@ export function Tabs({ activeTab, onChange, laterCount }: Props) {
         >
           {label}
           {id === 'later' && laterCount > 0 && (
-            <span className="ml-1 text-xs bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 px-1.5 rounded-full">
+            <span
+              aria-label={`${laterCount}件保存済み`}
+              className="ml-1 text-xs bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 px-1.5 rounded-full"
+            >
               {laterCount}
             </span>
           )}
