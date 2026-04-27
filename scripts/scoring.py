@@ -1,13 +1,22 @@
 import re
 
 INTEREST_KEYWORDS = [
-    "AI", "LLM", "Claude Code", "ChatGPT", "React", "TypeScript",
-    "Flutter", "Python", "GitHub Actions", "Vercel", "Firebase",
-    "Supabase", "MCP", "Webアプリ",
+    # AI/LLM コア
+    "AI", "LLM", "生成AI", "機械学習", "ディープラーニング",
+    # モデル名
+    "Claude", "Claude Code", "ChatGPT", "GPT-4", "GPT-4o",
+    "Gemini", "Llama", "Mistral", "Grok", "Copilot",
+    # 技術手法
+    "RAG", "fine-tuning", "ファインチューニング", "エージェント", "MCP",
+    "プロンプトエンジニアリング", "ベクトルDB", "Transformer",
+    # フロントエンド/開発
+    "React", "TypeScript", "Flutter", "Python",
+    # インフラ
+    "GitHub Actions", "Vercel", "Firebase", "Supabase",
 ]
 
 BOOST_PER_KEYWORD = 15.0
-MAX_BOOST = 30.0
+MAX_BOOST = 45.0
 DEFAULT_SCORE = 30.0
 
 

@@ -9,6 +9,8 @@ from sources.zenn import fetch_articles as fetch_zenn
 from sources.qiita import fetch_articles as fetch_qiita
 from sources.hatena import fetch_articles as fetch_hatena
 from sources.hackernews import fetch_articles as fetch_hackernews
+from sources.devto import fetch_articles as fetch_devto
+from sources.huggingface import fetch_articles as fetch_huggingface
 from scoring import score_articles
 from json_writer import write_json
 
@@ -25,6 +27,8 @@ def main():
         ("Qiita", fetch_qiita),
         ("はてなブックマーク", fetch_hatena),
         ("Hacker News", fetch_hackernews),
+        ("dev.to", fetch_devto),
+        ("Hugging Face", fetch_huggingface),
     ]
 
     for name, fetcher in sources:

@@ -53,7 +53,7 @@ def test_apply_interest_boost_single_keyword():
 def test_apply_interest_boost_max_cap():
     articles = [make_raw("a", "Zenn", 50, title="AI React TypeScript Python まとめ")]
     result = apply_interest_boost(articles, KEYWORDS)
-    assert result[0]["interestBoost"] == 30.0
+    assert result[0]["interestBoost"] == 45.0
 
 
 def test_apply_interest_boost_no_match():
