@@ -7,11 +7,17 @@ type State =
   | { status: 'success'; data: DailyNews }
   | { status: 'error'; message: string }
 
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
+
 export function useDailyNews(dateKey: string) {
   const [state, setState] = useState<State>({ status: 'idle' })
   const date = dateKey.split('?')[0]
 
   useEffect(() => {
+    if (!DATE_RE.test(date)) {
+      setState({ status: 'error', message: 'Invalid date' })
+      return
+    }
     const controller = new AbortController()
     setState({ status: 'loading' })
     fetch(`/data/${date}.json`, { signal: controller.signal })
