@@ -141,3 +141,32 @@ def test_devto_failure_returns_empty():
     with patch("urllib.request.urlopen", side_effect=Exception("network error")):
         articles = fetch_articles()
     assert articles == []
+
+
+HUGGINGFACE_ATOM = """<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <title>Introducing Llama 3.2</title>
+    <link href="https://huggingface.co/blog/llama32"/>
+    <published>2026-04-28T09:00:00+00:00</published>
+  </entry>
+</feed>"""
+
+
+def test_huggingface_returns_articles():
+    from sources.huggingface import fetch_articles
+    with patch("urllib.request.urlopen", return_value=mock_urlopen(HUGGINGFACE_ATOM)):
+        articles = fetch_articles()
+    assert len(articles) >= 1
+    assert articles[0]["source"] == "Hugging Face"
+    assert articles[0]["title"] == "Introducing Llama 3.2"
+    assert articles[0]["url"] == "https://huggingface.co/blog/llama32"
+    assert articles[0]["rawScore"] is None
+    assert articles[0]["id"].startswith("hf-")
+
+
+def test_huggingface_failure_returns_empty():
+    from sources.huggingface import fetch_articles
+    with patch("urllib.request.urlopen", side_effect=Exception("network error")):
+        articles = fetch_articles()
+    assert articles == []
