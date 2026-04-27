@@ -107,6 +107,7 @@ export default function App() {
               onSave={save}
               onRemove={remove}
               emptyMessage="該当する記事がありません"
+              showFeatured
             />
           )}
           {activeTab === 'all' && (
