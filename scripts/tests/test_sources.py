@@ -110,3 +110,34 @@ def test_source_failure_returns_empty():
     with patch("urllib.request.urlopen", side_effect=Exception("network error")):
         articles = fetch_articles()
     assert articles == []
+
+
+DEVTO_RSS = """<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>Building an AI Agent with LLMs</title>
+      <link>https://dev.to/example/building-ai-agent</link>
+      <pubDate>Mon, 28 Apr 2026 01:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>"""
+
+
+def test_devto_returns_articles():
+    from sources.devto import fetch_articles
+    with patch("urllib.request.urlopen", return_value=mock_urlopen(DEVTO_RSS)):
+        articles = fetch_articles()
+    assert len(articles) >= 1
+    assert articles[0]["source"] == "dev.to"
+    assert articles[0]["title"] == "Building an AI Agent with LLMs"
+    assert articles[0]["url"] == "https://dev.to/example/building-ai-agent"
+    assert articles[0]["rawScore"] is None
+    assert articles[0]["id"].startswith("devto-")
+
+
+def test_devto_failure_returns_empty():
+    from sources.devto import fetch_articles
+    with patch("urllib.request.urlopen", side_effect=Exception("network error")):
+        articles = fetch_articles()
+    assert articles == []
