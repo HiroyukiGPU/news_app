@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { getLaterItems, saveLaterItem, removeLaterItem, isLaterItem } from '../lib/storage'
+import { getLaterItems, saveLaterItem, removeLaterItem } from '../lib/storage'
 import type { Article, LaterItem } from '../types/article'
 
 export function useLaterItems() {
@@ -21,7 +21,7 @@ export function useLaterItems() {
   }
 
   function isSaved(id: string): boolean {
-    return isLaterItem(id)
+    return laterItems.some((item) => item.id === id)
   }
 
   return { laterItems, save, remove, isSaved }
