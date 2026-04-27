@@ -6,7 +6,6 @@ import { Header } from './components/Header'
 import { Tabs, type TabId } from './components/Tabs'
 import { ArticleList } from './components/ArticleList'
 import { SourceFilter } from './components/SourceFilter'
-import { EmptyState } from './components/EmptyState'
 import { ErrorState } from './components/ErrorState'
 import type { Article, LaterItem } from './types/article'
 
