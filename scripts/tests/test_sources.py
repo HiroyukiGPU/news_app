@@ -2,27 +2,25 @@ import sys, os, json
 from unittest.mock import patch, MagicMock
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-HATENA_RSS = """<?xml version="1.0" encoding="UTF-8"?>
+NOTE_RSS = """<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <item>
-      <title>テスト記事</title>
-      <link>https://example.com/article</link>
+      <title>note記事</title>
+      <link>https://note.com/user/n/abc123</link>
       <pubDate>Mon, 27 Apr 2026 06:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>"""
 
-QIITA_RSS = """<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <item>
-      <title>Qiita記事</title>
-      <link>https://qiita.com/example</link>
-      <pubDate>Mon, 27 Apr 2026 05:00:00 +0900</pubDate>
-    </item>
-  </channel>
-</rss>"""
+QIITA_ATOM = """<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <title>Qiita記事</title>
+    <link rel="alternate" href="https://qiita.com/user/items/abc123"/>
+    <published>2026-04-27T06:00:00+09:00</published>
+  </entry>
+</feed>"""
 
 ZENN_RSS = """<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -44,23 +42,24 @@ def mock_urlopen(content: str):
     return mock
 
 
-def test_hatena_returns_articles():
-    from sources.hatena import fetch_articles
-    with patch("urllib.request.urlopen", return_value=mock_urlopen(HATENA_RSS)):
+def test_note_returns_articles():
+    from sources.note import fetch_articles
+    with patch("urllib.request.urlopen", return_value=mock_urlopen(NOTE_RSS)):
         articles = fetch_articles()
     assert len(articles) >= 1
-    assert articles[0]["source"] == "はてなブックマーク"
-    assert articles[0]["title"] == "テスト記事"
-    assert articles[0]["url"] == "https://example.com/article"
+    assert articles[0]["source"] == "note"
+    assert articles[0]["title"] == "note記事"
+    assert articles[0]["url"] == "https://note.com/user/n/abc123"
 
 
 def test_qiita_returns_articles():
     from sources.qiita import fetch_articles
-    with patch("urllib.request.urlopen", return_value=mock_urlopen(QIITA_RSS)):
+    with patch("urllib.request.urlopen", return_value=mock_urlopen(QIITA_ATOM)):
         articles = fetch_articles()
     assert len(articles) >= 1
     assert articles[0]["source"] == "Qiita"
     assert articles[0]["title"] == "Qiita記事"
+    assert articles[0]["url"] == "https://qiita.com/user/items/abc123"
 
 
 def test_zenn_returns_articles():
@@ -106,7 +105,7 @@ def test_hackernews_returns_articles():
 
 
 def test_source_failure_returns_empty():
-    from sources.hatena import fetch_articles
+    from sources.note import fetch_articles
     with patch("urllib.request.urlopen", side_effect=Exception("network error")):
         articles = fetch_articles()
     assert articles == []

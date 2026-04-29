@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from sources.zenn import fetch_articles as fetch_zenn
 from sources.qiita import fetch_articles as fetch_qiita
-from sources.hatena import fetch_articles as fetch_hatena
+from sources.note import fetch_articles as fetch_note
 from scoring import score_articles
 from json_writer import write_json
 
@@ -22,7 +22,7 @@ def main():
     sources = [
         ("Zenn", fetch_zenn),
         ("Qiita", fetch_qiita),
-        ("はてなブックマーク", fetch_hatena),
+        ("note", fetch_note),
     ]
 
     for name, fetcher in sources:

@@ -4,16 +4,8 @@ from datetime import datetime, timezone, timedelta
 import hashlib
 
 JST = timezone(timedelta(hours=9))
+ATOM_NS = "http://www.w3.org/2005/Atom"
 RSS_URL = "https://qiita.com/popular-items/feed"
-
-
-def _parse_date(date_str: str) -> str | None:
-    try:
-        from email.utils import parsedate_to_datetime
-        dt = parsedate_to_datetime(date_str)
-        return dt.astimezone(JST).isoformat(timespec="seconds")
-    except Exception:
-        return None
 
 
 def fetch_articles() -> list[dict]:
@@ -26,10 +18,11 @@ def fetch_articles() -> list[dict]:
         articles = []
         fetched_at = datetime.now(JST).isoformat(timespec="seconds")
 
-        for item in root.iter("item"):
-            title = item.findtext("title") or ""
-            url = item.findtext("link") or ""
-            pub_date = item.findtext("pubDate")
+        for entry in root.iter(f"{{{ATOM_NS}}}entry"):
+            title = entry.findtext(f"{{{ATOM_NS}}}title") or ""
+            link = entry.find(f"{{{ATOM_NS}}}link")
+            url = link.get("href", "") if link is not None else ""
+            published = entry.findtext(f"{{{ATOM_NS}}}published") or ""
 
             if not title or not url:
                 continue
@@ -40,7 +33,7 @@ def fetch_articles() -> list[dict]:
                 "title": title.strip(),
                 "url": url.strip(),
                 "source": "Qiita",
-                "publishedAt": _parse_date(pub_date) if pub_date else None,
+                "publishedAt": published or None,
                 "fetchedAt": fetched_at,
                 "rawScore": None,
                 "summary": None,
