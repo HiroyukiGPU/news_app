@@ -1,0 +1,1806 @@
+{
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T08:45:23+09:00",
+  "sources": [
+    "Qiita",
+    "Zenn",
+    "note"
+  ],
+  "totalCount": 119,
+  "articles": [
+    {
+      "id": "zenn-ffd7aab7",
+      "title": "Vercelの「インポートできます」メールは何を見て送られてくるのか 61リポジトリで確かめた",
+      "url": "https://zenn.dev/devuloper/articles/vercel_import_candidates_email",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T21:04:47+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "Vercel"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-22dd14c5",
+      "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
+      "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T16:27:13+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "LLM"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-17845c26",
+      "title": "無料の技術イベントは、無料でつくられていない",
+      "url": "https://zenn.dev/sun_asterisk/articles/free-event-not-free",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T13:47:50+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-1c34cb0d",
+      "title": "情シス依頼の一次受付をAI Agentに任せるっきゅ！",
+      "url": "https://zenn.dev/mkj/articles/4477dd49091031",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T11:50:05+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-dbadadbf",
+      "title": "/claude-api prompt-audit で棚卸ししたら、Claude Opus 5.5 化で外れた設定がぞろぞろ出てきた",
+      "url": "https://zenn.dev/nanora/articles/20260925-claude-prompt-audit-opus55",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T10:59:47+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "Claude"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-c835a1b1",
+      "title": "ステートマシンでフォームの分岐を管理して失敗した (データから導出できる値を状態にすべきでない)",
+      "url": "https://zenn.dev/bita/articles/f1872707871b2c",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T10:08:15+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-c73bd832",
+      "title": "11年生本番データ飛ばす",
+      "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T09:00:05+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-40cc67f2",
+      "title": "Angular: プライベートフィールドの意味論再考",
+      "url": "https://zenn.dev/lacolaco/articles/angular-private-fields",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T07:30:00+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-cea474b9",
+      "title": "王の凱旋—Opus 5.5 React習熟度ベンチマーク—",
+      "url": "https://zenn.dev/uhyo/articles/react-profession-bench-17",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T00:36:51+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "React"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-6676707a",
+      "title": "age40 - 30代でやってよかったこと",
+      "url": "https://zenn.dev/dress_code/articles/2026-09-24_age-40",
+      "source": "Zenn",
+      "publishedAt": "2026-09-24T16:58:17+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-9d11e1de",
+      "title": "Claude Code クラウドセッション、使ってみて！",
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions",
+      "source": "Zenn",
+      "publishedAt": "2026-09-24T16:27:32+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "zenn-f6461c61",
+      "title": "会議・調査・資料作成をAgentに任せる：Microsoft環境で始めるプロジェクトLLM Wiki",
+      "url": "https://zenn.dev/mkj/articles/agent-native-project-work-with-llm-wiki",
+      "source": "Zenn",
+      "publishedAt": "2026-09-24T11:50:05+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "LLM"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-b3eec4f9",
+      "title": "自宅サーバーのススメ",
+      "url": "https://zenn.dev/porters_tech/articles/b2282728b35397",
+      "source": "Zenn",
+      "publishedAt": "2026-09-24T10:00:06+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-18af7a45",
+      "title": "AWS DevOps Agent の堅牢性",
+      "url": "https://zenn.dev/cscloud_blog/articles/9968d12b332c03",
+      "source": "Zenn",
+      "publishedAt": "2026-09-24T09:36:37+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-89ec910a",
+      "title": "Claude Codeで定期的にやっておきたい MEMORY.md の大掃除",
+      "url": "https://zenn.dev/loglass/articles/f69996279763ab",
+      "source": "Zenn",
+      "publishedAt": "2026-09-24T08:00:05+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "zenn-41dc6eca",
+      "title": "Opus 5.5にプロンプトを渡したら、解説アニメーション動画ができた",
+      "url": "https://zenn.dev/acntechjp/articles/178e40be12d347",
+      "source": "Zenn",
+      "publishedAt": "2026-09-24T06:30:12+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-4bd7704a",
+      "title": "Claude Opus 5.5によるピクセルアニメーション生成の検証",
+      "url": "https://zenn.dev/peoplex_blog/articles/1bc5c181ad19f0",
+      "source": "Zenn",
+      "publishedAt": "2026-09-23T16:20:05+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "Claude"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-842a7ad0",
+      "title": "競馬の論文 100 本を Jev で仕分けて、LLM と速度とコストを比べた",
+      "url": "https://zenn.dev/toshipon/articles/jev-paper-screening-vs-llm",
+      "source": "Zenn",
+      "publishedAt": "2026-09-23T15:51:29+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "LLM"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-bdcb7faa",
+      "title": "みんなJevの話してる。やってないの俺だけ",
+      "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
+      "source": "Zenn",
+      "publishedAt": "2026-09-22T22:11:24+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-f2d67775",
+      "title": "C言語のコードをRustの中に書けるライブラリを作った",
+      "url": "https://zenn.dev/tanakh/articles/c-code-in-rust",
+      "source": "Zenn",
+      "publishedAt": "2026-09-22T11:23:29+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-7cba5f69",
+      "title": "🦙 ALPACA-FW #06｜RTMの重要性、成果物とTraceabilityをどうつなぐかの話",
+      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-06-traceability",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T20:26:14+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-556711ae",
+      "title": "見た目の改善だけを Codex に75段階まわした。手での中継をやめたら、取り込み間隔が50分から4分になった",
+      "url": "https://zenn.dev/maruhana/articles/codex-visual-75-stages",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T20:15:24+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-0289de3f",
+      "title": "x402 Payments on Arc: Agent Pays in USDC, No Facilitator",
+      "url": "https://zenn.dev/buidl25/articles/bstock-arc-x402-payment",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T20:13:07+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-b99ff397",
+      "title": "ウェビナー字幕をCLAUDE.mdに全文で入れると？ Claude Codeで18回比べたら採点は同点・入力トークン約4割増",
+      "url": "https://zenn.dev/kanta13jp1/articles/claude-md-webinar-transcript-ab-test",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T20:12:06+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "zenn-e3521ef5",
+      "title": "AI.CLASSIFYでGROUP BYする — 分類軸を自然言語で定義する",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-classify-group-by",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T19:20:39+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-1dc4d331",
+      "title": "中学生でもわかる Lean 4 #10｜AIは「証明の中身」と「強そうな名前」を分けて読める？",
+      "url": "https://zenn.dev/dantarg/articles/lean4-ai-same-proof-different-story",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T19:02:09+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-54136447",
+      "title": "【Jev vs GPT】比較検証するAPI費用は1/148、判断時間は1/14になった",
+      "url": "https://zenn.dev/yukurash/articles/8c286e586afa44",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T18:42:27+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-53bba40a",
+      "title": "AIに書かせても速くならないのは、AIを「手足」として使っているから。人が押さえるべき5つの判断ポイントと半自動ループの作り方",
+      "url": "https://zenn.dev/dotdtech_blog/articles/65d51bc72d7ee9",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T18:35:29+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-9464bdfe",
+      "title": "話題のJevを触ってみました。特徴、料金、活用事例など。",
+      "url": "https://zenn.dev/gmomedia/articles/2026-09-25-typesafe-jev",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T18:04:43+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-162af9f9",
+      "title": "Claude Codeの /loop と /goal 入門：「時間で繰り返す」と「終わるまで走らせる」を実機で使い分ける【2026年9月版】",
+      "url": "https://zenn.dev/takuh/articles/3856bf08d728a9",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T18:04:16+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "zenn-26690128",
+      "title": "Cursor の Rules / Skills / Hooks は何が違う？ 3 つの質問で使い分ける",
+      "url": "https://zenn.dev/th00157899/articles/cursor-rules-skills-hooks-difference",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T18:03:47+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-47d53c38",
+      "title": "Cursor の hooks が動かないときに確認する 7 項目",
+      "url": "https://zenn.dev/th00157899/articles/cursor-hooks-not-working-checklist",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T18:03:46+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-b6456cc6",
+      "title": "Cursor Cloud Agent の料金——追加ゼロのクレジット消費と使い分け判断",
+      "url": "https://zenn.dev/joemike/articles/cursor-cloud-agent-pricing-2026",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T18:01:50+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-2c357f77",
+      "title": "非エンジニアでも即日WPプラグインをAIで作成",
+      "url": "https://zenn.dev/kuwanokazuya/articles/33e52882479696",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T17:46:33+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-70661f31",
+      "title": "10000ターン会話させてみた。AIの記憶はどこから「記憶らしく」なくなるのか",
+      "url": "https://zenn.dev/mitsukida/articles/5f081dbcd22667",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T17:32:39+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-8df11a2c",
+      "title": "【AIと始めるQt/QMLアプリ開発(3)】AIエージェントにC++バックエンドを書かせてQMLと連携させる（Qt/QML AI開発実践）",
+      "url": "https://zenn.dev/spacesolver/articles/qt_ai_part03",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T16:53:20+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-2a156e70",
+      "title": "エージェントのセッションが終わるたび、記憶を捨てていませんか？—— 引き継ぎノートのループ「quiver」をつくった話",
+      "url": "https://zenn.dev/dupi/articles/cross-agent-quiver-handover",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T16:34:59+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "エージェント"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "zenn-8406155e",
+      "title": "Evaluating CLM-8B as a System 1 Decision Engine vs Jev and Kev",
+      "url": "https://zenn.dev/null_teck/articles/clm-vs-decision-models",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T15:48:52+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "zenn-f769bbdc",
+      "title": "Cloudflare Workers Cache 完全理解。Cache APIとの決定的な違いと実践ガイド",
+      "url": "https://zenn.dev/karamage/articles/54bed5d83b87f2",
+      "source": "Zenn",
+      "publishedAt": "2026-09-25T15:37:21+09:00",
+      "fetchedAt": "2026-09-26T08:45:21+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-43974330",
+      "title": "Claude Code の拒否ルールを7つの形で測った。最新版でまだ4つ残っている",
+      "url": "https://qiita.com/suwa_nobu/items/d21ff35b9329eecc6143?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T10:29:40+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "qiita-3dc390ed",
+      "title": "許可ルールを settings.json に書いても効かなかった。分かれ目はフォルダを信頼したかどうか",
+      "url": "https://qiita.com/suwa_nobu/items/92d4de34077b9ae02fca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T10:29:25+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-095dd224",
+      "title": "Claude Opus 5.5 の「40%安い」は、キャッシュの当たり方で24%にも59%にもなった",
+      "url": "https://qiita.com/suwa_nobu/items/870b1d6c5502aca68f55?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T10:29:11+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "Claude"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-a609963b",
+      "title": "管理業務～私の実践～②",
+      "url": "https://qiita.com/wawasaki2468/items/4591be7133e2f9d1d3cd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T09:16:54+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-b7dcb423",
+      "title": "JenkinsのPRレビューでテストとセキュリティスキャンも回す ― AIのAPPROVEを機械的に覆すMineWatchのCI",
+      "url": "https://qiita.com/jqit-yukiono/items/8675266928f574677d9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T20:39:46+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-f02068ac",
+      "title": "個人開発でApp Storeリリースフローを学ぶ（三部作）― 本番だけ静かに壊れた、CI/CDの2つの事故",
+      "url": "https://qiita.com/jqit-yukiono/items/21973aaa1c605b34c174?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T20:38:43+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-dcfba7d8",
+      "title": "AI生成そのままのスライドを使った登壇が多すぎてちょっと食傷気味なんだよォーーーッ！！！",
+      "url": "https://qiita.com/shimagaji/items/8acd9b94dfe56fefc0dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T23:40:45+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-db14eff1",
+      "title": "攻撃者の視点でセキュリティを理解したいエンジニアへ。bashで学ぶ侵入技術の実践書",
+      "url": "https://qiita.com/yasu1109/items/1002367721b1650fcdf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-23T08:56:43+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-5a2bb6f3",
+      "title": "高校の文化祭でPOSシステムをCloudflare上に1から構築/運用した話 〜短期開発から本番障害、そして完売まで〜",
+      "url": "https://qiita.com/ast-24/items/454fc975b095230565c7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T00:11:53+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-cb4d7cf4",
+      "title": "その仕事、本当に「Skills」で再現できるのか考えてみる",
+      "url": "https://qiita.com/Takashi_Masumori/items/4fbf6144f4cab3f00123?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T08:24:54+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-5dfb6ea1",
+      "title": "AI時代真っ只中に、ほぼ未経験で自社開発エンジニアとして新卒入社した僕が思うこと",
+      "url": "https://qiita.com/1nori_/items/bd8052e938a343c82555?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T12:20:05+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-80350695",
+      "title": "MCP サーバーと繋いだだけで情報漏洩？ 危険の4パターンと事前に確認すべき7つのことをまとめてみた",
+      "url": "https://qiita.com/songchong/items/89175eaa7a30f71d0351?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T00:06:57+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "MCP"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-69a8dafb",
+      "title": "AI感のないAWS構成図をAIエージェントに描かせたい！",
+      "url": "https://qiita.com/sagochiko/items/ef77b084ff2dee1f859c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T21:57:18+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-5729d77c",
+      "title": "AWSのNAT Gatewayで料金が発生する仕組みを整理してみた",
+      "url": "https://qiita.com/AkiraTakasaki/items/86893d225a9bd96bc100?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T14:05:56+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-28576ac8",
+      "title": "Jev完全ガイド：GPTやClaudeとは違う「判断するAI」は何を変えるのか!?",
+      "url": "https://qiita.com/ryosuke_ohori/items/72ec59a33f8efb9d008a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T11:44:56+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "AI",
+        "Claude"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "qiita-f077f6cb",
+      "title": "Jev は LLM ジャッジに使えるか、紛らわしい誤答72件で確かめた",
+      "url": "https://qiita.com/taka_yayoi/items/3cc901e872209835491a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T10:33:44+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "LLM"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-f0e8bb8d",
+      "title": "大切な問題ほど、なぜ語られなくなるのか？ ― 「沈黙の螺旋」と財源幻想をデバッグし、国家レジリエンスを高める : システム設計視点の行動経済学 (33)",
+      "url": "https://qiita.com/maskot1977/items/9b6f1a03204797cf91d2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-26T01:12:11+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-176f6d36",
+      "title": "SalesforceのデータをDr.Sumに定期的に取り込む（TROCCO活用例）",
+      "url": "https://qiita.com/suzu_suzu/items/395572193dfb67a138ec?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T14:05:20+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-7bc8aee9",
+      "title": "Lambda 関数 URL で Condition 句による IP アドレス制限が可能になったか検証する",
+      "url": "https://qiita.com/hayao_k/items/e6518a0d494006fac712?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T14:14:33+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-dfe177ef",
+      "title": "VRChatワールド「すんごいカメレオン」同期技術解説",
+      "url": "https://qiita.com/Yodokoro/items/1eaaa4260efe413fee50?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T19:04:48+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-a3ec525c",
+      "title": "OpenAI APIキーをOCI VaultとResource PrincipalでセキュアにしてSelect AIしてみてみた",
+      "url": "https://qiita.com/shirok/items/a5f34349c0b6ba8f3f62?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T06:54:03+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-18a35055",
+      "title": "「これ本当にAPEX？」Codexで作るモダンUIをOCI Always Freeで動かす",
+      "url": "https://qiita.com/itokazu/items/5f204a466c22a2b774de?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-23T11:33:52+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-78579a2f",
+      "title": "Kubernetes入門：Podが動くまでに中で何が起きているのか、クラスタの構成要素を整理する",
+      "url": "https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T22:27:04+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-cff8efbc",
+      "title": "Claude Code の週間リミット、気づいたら尽きてない？ →「いつ尽きるか」を予測する macOS ウィジェットを作った",
+      "url": "https://qiita.com/akito8639/items/3d8f61c33da566662d0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T10:50:28+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "qiita-8758a0d2",
+      "title": "Microsoft Defender の「ISOC（Integrated Security Operations Center）」についての私的まとめ",
+      "url": "https://qiita.com/hirotomotaguchi/items/dd3f3371fef6075ebb57?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T07:01:34+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-c9680372",
+      "title": "Jevに「AIはアントニオ猪木さんか？」と聞いたら、BI砲でようやく勝った",
+      "url": "https://qiita.com/torifukukaiou/items/2ded249d080cad676a4c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T16:36:09+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-80d22c5f",
+      "title": "Google・GitHub・Microsoftのマルチアカウントを実測したら、3社とも別解だった話（2026年版）",
+      "url": "https://qiita.com/ntaka329/items/52b356eeb51d3d14e5ef?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T17:08:27+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-7820638d",
+      "title": "ログローテーションって何がどうなってるの…？",
+      "url": "https://qiita.com/Stuffed-cabbage/items/fe0cb7a6acd4342151f8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T10:05:38+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "qiita-c6ee7893",
+      "title": "無料枠AI APIを使い倒す：9RouterとOmniRouteで自分専用のAIゲートウェイを構築する",
+      "url": "https://qiita.com/TOMOSIA-LinhND/items/a9f97284ddbef214ac9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-25T18:02:54+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "qiita-7570f68e",
+      "title": "AWS DevOps Agent と障害対応の速さを競ってみた",
+      "url": "https://qiita.com/htGin/items/064fcb82f1efa60d9b9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "publishedAt": "2026-09-24T12:21:53+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-4f6bb83c",
+      "title": "Generative AI Leader 勉強法は4週末で模試6回。社会人の資格勉強",
+      "url": "https://note.com/brave_aster403/n/n98e60a111175",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:45:10+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-747287bc",
+      "title": "AIエージェントを「新入社員」と呼ぶと、少し見誤ると思う",
+      "url": "https://note.com/techstudiolab/n/n4011723d7e1e",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:45:01+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-225c3c7c",
+      "title": "みんなのフォトギャラリー💛in KIBUKI｜サイバーな掃除機とガラス玉が光る近未来背景",
+      "url": "https://note.com/kibuki_art/n/n0394625347b4",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:44:43+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-b4490299",
+      "title": "alexandrejr paper'26.09.26.",
+      "url": "https://note.com/alexandre_141/n/n7362b7f09843",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:44:43+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-0e4931b5",
+      "title": "【短編小説】今年のまとめ",
+      "url": "https://note.com/codenashishacho/n/n25ce306e66bc",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:44:39+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-ae714a77",
+      "title": "【世界経済ニュース10選】米消費者心理は4カ月ぶり低水準、日本国債は3％超｜2026年9月26日",
+      "url": "https://note.com/chishikitsuketai/n/n3b716c6a579c",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:43:27+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-2955e6b2",
+      "title": "Pewの37か国調査、AIで仕事が減ると答えた国は34、社員の不安にどう向き合うか",
+      "url": "https://note.com/happy_orca1495/n/n8d3da8817e31",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:43:06+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-1c1c7b9b",
+      "title": "Day058｜50歳を過ぎて、親のことを何も知らないことに気づいた。",
+      "url": "https://note.com/seconddesign50/n/n711f5b8bfc45",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:42:07+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-49efaa13",
+      "title": "中国でヒューマノイド企業の上場に減速の動き、導入前に見る「売上の中身」とは",
+      "url": "https://note.com/happy_orca1495/n/n9bcdf1b02cfd",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:41:39+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-695323ff",
+      "title": "音楽の話#1",
+      "url": "https://note.com/roby18/n/n60049efe5860",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:41:34+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-93f1d84c",
+      "title": "受賞企業の多くに“AI”。でも“金融”がない。日本スタートアップ大賞2026から考える次の未来",
+      "url": "https://note.com/chibijun/n/n88c2832a1920",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:41:29+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-26fdf348",
+      "title": "ChatGPTの原型は1991年? 人はなぜ元祖にこだわる",
+      "url": "https://note.com/koyunoshiteyai/n/n69f0e1764ddd",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:41:04+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "ChatGPT"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-d131cdcb",
+      "title": "「楽な仕事をしたい」は悪なのか？キャリアで本当に危ないのは“楽を求めること”ではない",
+      "url": "https://note.com/clean_snipe6098/n/na4d582319378",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:40:51+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-9267f37e",
+      "title": "同じAIでも、会社のファイルを読めるのは3つの入口のうち1つだけです",
+      "url": "https://note.com/shinji_lightdoor/n/n67454610b824",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:40:44+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-c78e4f8d",
+      "title": "家族との時間を諦めない。勉強と子育てを両立する時間術",
+      "url": "https://note.com/shoor02_27/n/n54bc6dc9378b",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:40:39+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-ad61f474",
+      "title": "AnthropicとOpenAIが同日に値下げ、AIの利用料は本当に半分になったのか",
+      "url": "https://note.com/happy_orca1495/n/n9e75e9c1ab96",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:40:14+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-68ed768f",
+      "title": "AI時代に「接客」は生き残れるか。カラシの袋と靴揃えに宿る、代替不可能な「おもてなし」の正体",
+      "url": "https://note.com/pure_sable9505/n/ne5a02d0984f4",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:40:09+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-29928a7a",
+      "title": "「有料記事」AI初心者でも今日から始められる。1日30分から始めるChatGPT副業",
+      "url": "https://note.com/notebeyondyouth/n/nf40d95a5312a",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:39:40+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "AI",
+        "ChatGPT"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "note-1673fc91",
+      "title": "「人参はいつ播けばいいですか？」に、AIは答えられるか。",
+      "url": "https://note.com/yaq_89/n/n3b31f7cc1c66",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:39:08+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-175d35e3",
+      "title": "AIに社内ルールを聞くのは不安？規程を貼れば書いてない所は埋めない",
+      "url": "https://note.com/sorori_ai/n/na94d860a6959",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:39:05+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-a8950252",
+      "title": "#91　73歳、プログラマーではない私が、AIと協働して実証アプリを完成させた",
+      "url": "https://note.com/semarchst/n/n2ec2ada0d4d6",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:38:30+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-1d4f269b",
+      "title": "2026/9/26今日の市場 | 日米が円安是正を再確認：円急伸でも米金利高と株高が同居 | マクロ経済・AI・エネルギー",
+      "url": "https://note.com/gemiko/n/nff43d3c9e90f",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:38:11+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-44426015",
+      "title": "OpenAIのAIエージェントが豪政府サイトに無断侵入。拒否されても、別の道を探し続けていた",
+      "url": "https://note.com/ocomoco/n/n1f877dba10be",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:37:57+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-8507c652",
+      "title": "#1　AIで業務は効率化された。でも、売上や利益は変わった？",
+      "url": "https://note.com/fast_condor3630/n/n0b41f13aa9bf",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:37:41+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-8fe5a719",
+      "title": "インフルエンザやコロナ感染率をDXで下げる方法",
+      "url": "https://note.com/nk116dx/n/nbb3419205bab",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:36:44+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-5e2843b4",
+      "title": "AI-901 勉強法は何から始めるか。配点の最大6割が実装の資格試験",
+      "url": "https://note.com/bunkeiawssan/n/n01567528c3c0",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:35:48+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-ef397be6",
+      "title": "AI-901 勉強時間は16時間から。平日1時間の資格勉強で約3週間",
+      "url": "https://note.com/bunkeiawssan/n/n82a9bbd3e4c9",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:32:01+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-393289ba",
+      "title": "SIerとは何かを国の統計で確かめたら、国はゼネコンにたとえていて、受託開発の売上は元請8割・下請2割だった",
+      "url": "https://note.com/katuzimn/n/ncc896d982f60",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:24:56+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-ca4ccb89",
+      "title": "競馬×Python】阪神11RシリウスS（G3）を動的物理シミュレーション！自作ソフト『Alma MDI Pro』が導く3段展開マップと戦術買い目",
+      "url": "https://note.com/alma_core/n/n03248c03051c",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:23:45+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-4dcf8863",
+      "title": "前夜の勉強ゼロでも受かる。理系エンジニアが教える「応用情報・午後試験」を6割着地で突破する解答アルゴリズム【2026年CBT対応】",
+      "url": "https://note.com/notegenerator/n/nb4cde3705054",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:17:34+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-78bebc8c",
+      "title": "【週次深掘り】製造業の中間管理職が直視すべき、固定費依存モデルの限界と現場崩壊の正体",
+      "url": "https://note.com/sleepydragon/n/n5467cf19e973",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:09:45+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-18d6cb74",
+      "title": "頭の良さより素直さに圧倒的な軍配が上がる",
+      "url": "https://note.com/super_ferret761/n/ne560077843b2",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:08:31+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-5c5b4995",
+      "title": "数式職人 vs AIエージェント、IF14段の数式が5行になった日。76対54の大差でも職人が1本取った理由",
+      "url": "https://note.com/sionnct/n/ne753f79db56b",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:07:55+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-c2afa9c2",
+      "title": "7億の豪邸をキャッシュで買ったロックスターの教訓――「家を買わずに城を建てる」僕らのキャッシュフロー論",
+      "url": "https://note.com/alive_stork7576/n/nef6738e68a00",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:07:50+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-cc0a065f",
+      "title": "保険会社のシステム移植で学んだ「バリデーション」の基本",
+      "url": "https://note.com/kazushinakamura/n/ne1201f631243",
+      "source": "note",
+      "publishedAt": "2026-09-26T08:05:40+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-c56d4d8e",
+      "title": "What Is the Real Difference Between a Reactor and a Transformer?",
+      "url": "https://note.com/volt_edge/n/n8e1f2371fa37",
+      "source": "note",
+      "publishedAt": "2026-09-26T07:59:06+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "Transformer"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-7b71e0ad",
+      "title": "リアクトルとトランスは何が違うのか？エネルギー蓄積と電力伝送から理解する基本構造",
+      "url": "https://note.com/volt_edge/n/nb84a5b355b7b",
+      "source": "note",
+      "publishedAt": "2026-09-26T07:58:18+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-2f8f96e7",
+      "title": "【ツール配布】写真付きの修理報告書をPDFで作れる「修理レポート作成ツール」と使い方",
+      "url": "https://note.com/toprunner_lab/n/n8803b28a0cab",
+      "source": "note",
+      "publishedAt": "2026-09-26T07:42:19+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-ffb0ed86",
+      "title": "人材育成の理想論をやめた、最悪前提の6ルール",
+      "url": "https://note.com/horospice/n/ned36d5d8d03e",
+      "source": "note",
+      "publishedAt": "2026-09-26T07:32:47+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-b2d521a2",
+      "title": "豪政府ハッキングが暴いたAI自律の暴走と、Akamai 116億ドルの分散境界",
+      "url": "https://note.com/dtomida/n/nc7185ae5b44c",
+      "source": "note",
+      "publishedAt": "2026-09-26T07:27:54+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-f57342da",
+      "title": "修理の報告書、写真を入れるだけで作れるようにした｜ブラウザで動く「修理レポート作成ツール」を作りました",
+      "url": "https://note.com/toprunner_lab/n/n55bb0030a838",
+      "source": "note",
+      "publishedAt": "2026-09-26T07:26:09+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-6a4cf5d0",
+      "title": "エンジニア注目！今週のGitHubトレンド5選",
+      "url": "https://note.com/shali_note/n/n099646f722f5",
+      "source": "note",
+      "publishedAt": "2026-09-26T07:21:10+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-2a8dea1d",
+      "title": ".gitignore に書いたのに git status は綺麗 — 596リポジトリの43%で無視したはずのファイルが残る、確認は1コマンド",
+      "url": "https://note.com/mindorbit_bot_ai/n/nf480ef18c233",
+      "source": "note",
+      "publishedAt": "2026-09-26T06:56:04+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-6777fd44",
+      "title": "AI自動化で本当に怖い人間の慣れ、失敗を防ぐ3つの設計",
+      "url": "https://note.com/asuraworks/n/n0bdabf034ce7",
+      "source": "note",
+      "publishedAt": "2026-09-26T06:46:51+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-0a74430e",
+      "title": "AI時代、SESで「不要になるエンジニア」は増えるのか――コーディングだけでは残れない理由",
+      "url": "https://note.com/ideal_donkey6117/n/n4e325ca1f2b5",
+      "source": "note",
+      "publishedAt": "2026-09-26T06:44:23+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-8bb41ad0",
+      "title": "Claude Code開発者が押さえておきたい、最近のAnthropicニュースまとめ",
+      "url": "https://note.com/note_suke/n/na400ddf1d1c2",
+      "source": "note",
+      "publishedAt": "2026-09-26T06:31:22+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "note-4197c80c",
+      "title": "ノートPCを閉じても仕事は止まらない。Claude Codeの新機能「Projects」が開発フローを変える理由",
+      "url": "https://note.com/note_suke/n/n2d3220774e35",
+      "source": "note",
+      "publishedAt": "2026-09-26T06:23:01+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 30.0,
+      "matchedKeywords": [
+        "Claude",
+        "Claude Code"
+      ],
+      "finalScore": 60.0
+    },
+    {
+      "id": "note-53fa2e48",
+      "title": "キャリアは一直線でなくていい――点と点は、あとからつながる",
+      "url": "https://note.com/it_daytrading/n/nf266758c3c8f",
+      "source": "note",
+      "publishedAt": "2026-09-26T06:16:10+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 0.0,
+      "matchedKeywords": [],
+      "finalScore": 30.0
+    },
+    {
+      "id": "note-c97b2a6d",
+      "title": "途中で切れても、ひとりで続きから始める仕組み【コード版】 — 再開ラッパーの上限・生存印・ゾンビPID判定を実物で開くお話｜個人開発／AIアシスタントを育てる話",
+      "url": "https://note.com/kanadenoteai/n/nd66b33940744",
+      "source": "note",
+      "publishedAt": "2026-09-26T05:58:00+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    },
+    {
+      "id": "note-f4568246",
+      "title": "\"投稿する\"ボタンにちゃんとたどり着くまで、待って確かめるしくみ — 画面が描き終わる前に押しにいって空振りする事故を、ボタンが本当に出てくるのを待ってから押し、押せた/押せなかったを必ず記録するお話｜個人開発／AIアシスタントを育てる話",
+      "url": "https://note.com/kanadenoteai/n/n316cb631b0b5",
+      "source": "note",
+      "publishedAt": "2026-09-26T05:54:24+09:00",
+      "fetchedAt": "2026-09-26T08:45:22+09:00",
+      "rawScore": null,
+      "summary": null,
+      "normalizedScore": 30.0,
+      "interestBoost": 15.0,
+      "matchedKeywords": [
+        "AI"
+      ],
+      "finalScore": 45.0
+    }
+  ]
+}
